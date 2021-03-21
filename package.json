@@ -1,19 +1,20 @@
 {
-  "name": "feature-tags",
+  "name": "feature-flags",
   "version": "1.0.0",
-  "description": "Simple feature tag service on lambda &amp; s3",
+  "description": "Simple feature flags service on lambda &amp; s3",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "sls deploy",
+    "remove": "sls remove"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3B00D/feature-tags.git"
+    "url": "git+https://github.com/3B00D/feature-flags.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/3B00D/feature-tags/issues"
+    "url": "https://github.com/3B00D/feature-flags/issues"
   },
-  "homepage": "https://github.com/3B00D/feature-tags#readme"
+  "homepage": "https://github.com/3B00D/feature-flags#readme"
 }
