@@ -1,0 +1,19 @@
+{
+  "name": "feature-tags",
+  "version": "1.0.0",
+  "description": "Simple feature tag service on lambda &amp; s3",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3B00D/feature-tags.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3B00D/feature-tags/issues"
+  },
+  "homepage": "https://github.com/3B00D/feature-tags#readme"
+}
